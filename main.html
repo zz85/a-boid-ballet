@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>A Boid Ballet</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<script>
+			loadScript('main.js');
+
+			function loadScript(script) {
+				var js = document.createElement("script");
+
+				js.type = 'text/javascript';
+				js.src = script;
+
+				document.body.appendChild(js);	
+			}			
+		</script>
+	</body>
+</html>
